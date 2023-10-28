@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEGAMECH</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container">
+              <div class="brand" href="#">
+                <h2>P<span>M</span></h2>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Sobre-mi">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Educación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contactame</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Curriculum</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <section class="Yo py-5" id="Sobre-mi" >
+        <div class="container-lg py-4" data-aos="fade-up">
+            <div class="py-5">
+                <div class="row min-vh-100 align-items-center align-items-center">
+                    <div class="col-lg-6 ">
+                        <h1>Sobre mi</h1>
+                        <h2> <span>Pedro</span>  Gabriel Mejía Chacón</h2>
+                        <p class="mt-4 text-mute">Soy Pedro Mejía, un estudiante de 20 años de la Universidad Simón Bolívar, donde estoy cursando la carrera de Tecnologías de la Información en los Negocios. Desde que ingresé a esta universidad, me he sumergido en un mundo apasionante de la tecnología y los negocios, fusionando ambos campos para crear soluciones innovadoras y eficientes.</p>
+                    </div>
+                    <div class="col-lg-6 text-center mt-5 mt-md-0">
+                      <div class="social-media">
+                        <a href="#contacto"><i class="bi bi-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5568882154" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#contacto"><i class="bi bi-telephone-fill"></i></a>
+                        <a href="#contacto"><i class="bi bi-envelope-at-fill"></i></a>
+                      </div>
+                      <a href="./DOC/CV Osiel Morales Chávez.pdf" type="button" class="btn btn-outline-info rounded-pill" target="_blank">Imprimir CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section class="contacto py-5" id="contacto">
+        <div class="container">
+        <h1>Contactame</h1>
+        <h4>Mandame un mensaje...</h4>
+        <div class="py-5">
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="row text-center">
+                <div class="col-lg-12 col-md-6 col-sm-4 py-4" >
+                    <div class="contact-form">
+                    <form class="form-group" method="post" action="contacto.php">
+                        <div class="row">
+                        <div class="col-lg-6 mb-4 ">
+                            <input type="text" id="Nombre" class="input" placeholder="Nombre">
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <input type="text" id="Email" class="input" placeholder="E-Mail">
+                        </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="Asunto" class="input" placeholder="Asunto">
+                        </div>
+                        <div class="mb-3">
+                          <textarea name="message" placeholder="Place your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- --------------->
+            <div class="col-lg-6">
+                <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-4 py-4" >
+                    <div class="card">
+                    <div class="card-body">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <h5 class="card-title">E-Mail</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Pedro.mejia.ch@usb.edu.mx</h6>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 py-4" >
+                    <div class="card card-email">
+                    <div class="card-body">
+                        <i class="bi bi-phone"></i>
+                        <h5 class="card-title">Teléfono</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">55 6888 2154</h6>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 py-4">
+                    <div class="card" >
+                    <div class="card-body">
+                        <i class="bi bi-whatsapp"></i>
+                        <h5 class="card-title">Whatsapp</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">55 6888 2154</h6>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 py-4">
+                    <div class="card" >
+                    <div class="card-body">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <h5 class="card-title">Ubicación</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Universidad Simón Bolívar, Av. Río Mixcoac 48, 
+                        Insurgentes Mixcoac, Benito Juárez, 03920 Ciudad de México, CDMX</h6>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Pedro Gabriel Mejía Chacón. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./JS/jquery-3.7.0.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/myscript.js"></script>
+    
+</body>
+</html>
