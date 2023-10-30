@@ -104,6 +104,7 @@ body{
     color: white;/*color de fuente*/
     .card{
         width: 15rem;
+        height: 14rem;
         text-align: center;
         background-color: #e4e4e4;/*fondo de la tarjeta*/
         border:hidden;
