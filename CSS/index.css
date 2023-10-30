@@ -106,6 +106,13 @@ body{
         }
     }
 }
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #85a982;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
 .card:hover{
     transform: scale(1.05);
     box-shadow: 11px 9px 15px #B3CFC3;/*sombra de la tarjeta al poner el cursor*/
